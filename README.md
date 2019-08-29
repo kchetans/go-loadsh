@@ -12,10 +12,12 @@ Creates an array of elements split into groups the length of size. If array can'
 	 >  (Array): Returns the new array of chunks. 
 
 #### Example :-  
- 1. 
- >   array := []string{"a", "b", "c", "d", "e"}
-    fmt.Println(go_lodash.StringChunks(array, 3))
-    Output :-
+     ```golang
+        array := []string{"a", "b", "c", "d", "e"}
+	go_lodash.StringChunks(array, 3)
+        fmt.Println(go_lodash.StringChunks(array, 3))
+       ```
+  #####  Output :-
       [[a b c] [d e]]
   2.  
    >  array := []int{1,2,3,4}
